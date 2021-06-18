@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"file_handlers"
+)
 
 func main() {
-	fmt.Printf("hello, world!!!!!!!!\n")
+	file_handlers.HelloWorld()
 }

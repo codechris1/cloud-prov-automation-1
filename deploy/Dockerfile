@@ -3,7 +3,8 @@ ARG APP_NAME
 ENV APP_NAME=${APP_NAME}
 
 WORKDIR /go
-COPY cmd/${APP_NAME}/* src/${APP_NAME}/
+COPY cmd/${APP_NAME}/ src/${APP_NAME}/
+COPY pkg/ src/
 
 RUN go env -w GO111MODULE=off
 RUN go install ${APP_NAME}
