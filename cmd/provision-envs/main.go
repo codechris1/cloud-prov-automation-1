@@ -1,9 +1,11 @@
 package main
 
 import (
-	"file_handlers"
+	"apivalues"
+	logs "loggers"
 )
 
 func main() {
-	file_handlers.HelloWorld()
+	result:= apivalues.GetApiValues()
+	logs.Info(result)
 }

@@ -1,0 +1,23 @@
+{
+    "apiValues": [
+        {
+            "paramID": 1,
+            "paramName": "environmentType",
+            "values": [
+                "Team",
+                "Department",
+                "Enterprise"
+            ]
+        },
+        {
+            "paramID": 2,
+            "paramName": "environmentType2",
+            "values": [
+                "Team",
+                "Department",
+                "Enterprise",
+                "Another Value"
+            ]
+        }
+    ]
+}
